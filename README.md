@@ -9,9 +9,11 @@ This python script can export world and user name from VRChat log file.
 4. See VRChat\_usrlog.txt at the same directory of the log file.
 
 # Output example
+```
 2018.12.19 22:36:07 World: Suna's Playground
 2018.12.19 22:36:10  User: sunasaji
 ...
+```
 
 # Build
 In case you want to build the exe by yourself
