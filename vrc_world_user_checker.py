@@ -19,7 +19,7 @@ def main():
             match=re.search('([0-9\.]+ [0-9:]+).+Joining or Creating Room: (.+)',line)
             if match != None:
                 output_file.write(match.group(1) + " World: " + match.group(2) + "\n")
-            match=re.search('([0-9\.]+ [0-9:]+).+\[NetworkManager\] OnPlayerJoined (.+)',line)
+            match=re.search('([0-9\.]+ [0-9:]+).+\[Player\] Initialized PlayerAPI "(.+)" is remote',line)
             if match != None:
                 output_file.write(match.group(1) + "  User: " + match.group(2) + "\n")
 
